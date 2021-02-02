@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>belajar membuat form pada html</title>
+    <style>
+      body {background-color: yellow;}
+    </style>
+  </head>
+  
+  <body>
+<form>
+      <fieldset>
+        <legend>Formulir Calon istri</legend>
+
+          <p>nama : <input type="text" name="nama"></p>
+          <p>alamat : <input type="text" name="alamat"</p>
+          <p>status (punya doi/tidak punya doi) : <input type="text" name="status"</p>
+          <p>status (perawan/janda) : <input type="text" name="status"</p>
+          <p>
+            <b>Jenis Kelamin harus perempuan</b>
+          <input type="radio" name="jk" value="perempuan" />
+          Perempuan
+          </p>
+          <p>
+            Bidang yang dikuasai:
+          <input type="checkbox" name="pinter masak,manja dan hemat" /> pinter masak,manja dan hemat
+          <input type="checkbox" name="mandiri,suka berfoya-foya dan suka anak kecil" /> mandiri,suka berfoya-foya dan suka anak kecil
+          <input type="checkbox" name="lainnya" />lainnya(isi di kolom komentar)
+          </p>
+
+          <p>kota asal:
+          <select>
+            <option>cirebon</option>
+            <option>luar cirebon</option>
+          </select>
+          </p>
+
+          <p>apa yang membuat kalian mengisi formulir ini?: </p>
+          <P><textarea rows='10' cols='60' name="pengalaman"
+            placeholder="Tulis jawaban Anda di sini"
+          ></textarea></P>
+        
+        <p>
+        <input type="submit" value="Submit" />
+        </p>
+      </fieldset>
+    </form>
+  
+  </body>
+</html>
